@@ -1,0 +1,23 @@
+import React, {useState} from 'react'
+function MyComponents (){
+    const [name, setName] = useState('Guest');
+    const [age, setAge] = useState(0);
+    
+    const updateName = ()=>{
+      setName('SpongeBob');
+     
+    } 
+
+    const incrementAge = ()=>{
+        setAge(age+1);
+    }
+    return(
+        <div>
+            <p>Name: {name}</p>
+            <button onClick={updateName}>Set Name</button>
+            <p>Name: {age}</p>
+            <button onClick={incrementAge}>Set Name</button>
+        </div>
+    )
+}
+export default MyComponents

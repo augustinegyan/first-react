@@ -17,10 +17,14 @@
 import UserGreeting from "./UserGreeting"
 import List from "./List.jsx"
 import Button from './Button.jsx'
+import ProfilePicture from "./ProfilePicture.jsx"
+import MyComponents from "./MyComponents.jsx"
 function App(){
   return(
     <>
-      <Button/>
+      <MyComponents/>
+      {/* <Button/> */}
+      {/* <ProfilePicture/> */}
       {/* <UserGreeting isLoggedIn={true} username='Augustine'/> */}
 
     </>
