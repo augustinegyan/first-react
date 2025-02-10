@@ -19,13 +19,20 @@ import List from "./List.jsx"
 import Button from './Button.jsx'
 import ProfilePicture from "./ProfilePicture.jsx"
 import MyComponents from "./MyComponents.jsx"
+import Counter from "./Counter.jsx"
+import ColorPicker from "./ColorPicker.jsx"
+import UpdateFunction from "./UpdateFunction.jsx"
 function App(){
   return(
     <>
-      <MyComponents/>
+      <UpdateFunction/>
+      {/* <ColorPicker/> */}
+      {/* <MyComponents/> */}
       {/* <Button/> */}
       {/* <ProfilePicture/> */}
       {/* <UserGreeting isLoggedIn={true} username='Augustine'/> */}
+      {/* <Counter/> */}
+
 
     </>
   )
