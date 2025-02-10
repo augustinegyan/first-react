@@ -5,7 +5,9 @@ function UpdateFunction (){
     const [count, setCount] = useState(0)
 
     function increment (){
-        setCount(count+1);
+        setCount(c=>c+1);
+        setCount(c=>c+1);
+        setCount(c=>c+1); // updater fucntion . 
     }
 
     function reset(){
