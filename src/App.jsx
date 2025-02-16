@@ -25,9 +25,9 @@ import UpdateFunction from "./UpdateFunction.jsx"
 function App(){
   return(
     <>
-      <UpdateFunction/>
+      {/* <UpdateFunction/> */}
       {/* <ColorPicker/> */}
-      {/* <MyComponents/> */}
+      <MyComponents/>
       {/* <Button/> */}
       {/* <ProfilePicture/> */}
       {/* <UserGreeting isLoggedIn={true} username='Augustine'/> */}
